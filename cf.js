@@ -15,3 +15,4 @@ function sayHiTo (firstName) {
 }
 const greeting = sayHiTo("Wes");
 console.log(greeting);
+
