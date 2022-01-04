@@ -1,10 +1,10 @@
 {
-  "exercises": [
-    {
-      "title": "Lorem Ipsum",
-      "details": "Lorem Ipsum",
-      "complete": false,
-      "id": 7581
-    }
-  ]
+    "exercises":[
+        {
+            "title":"Pushups",
+            "details":"Pushups are beneficial for building upper body strength",
+            "complete":false,
+            "id":119
+        }
+    ]
 }
