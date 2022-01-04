@@ -1,5 +1,5 @@
 Base info: https://www.youtube.com/watch?v=iqewbHLKkQk
-
+time: 26:09
 "npm install"
 "npm start" 
 
