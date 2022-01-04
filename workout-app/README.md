@@ -1,3 +1,12 @@
+Base info: https://www.youtube.com/watch?v=iqewbHLKkQk
+
+"npm install"
+"npm start" 
+
+NEEDS npm install react-router-dom
+NEEDS json-server (free GET api)
+$ json-server --watch src/store/data.json --port=3111
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

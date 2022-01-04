@@ -5,6 +5,12 @@
             "details":"Pushups are beneficial for building upper body strength",
             "complete":false,
             "id":119
+        },
+        {
+            "title":"Pullups",
+            "details":"Pullups are just great!",
+            "complete":false,
+            "id":125
         }
     ]
 }
