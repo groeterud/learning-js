@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import ExcercisesList from "../components/ExcercisesList";
 
 export default function HomePage() {
     const [excercises, setExercises] = useState([]);
@@ -8,12 +9,16 @@ export default function HomePage() {
                 const response = await fetch("http://localhost:3111/exercises");
                 const data= await response.json();
                 console.log('Here are the excercises:',data);
+                setExercises(data);
             } catch (error) {
-                
+                console.log(error);
             }
         }
+        fetchExercise();
     },[]);
     return (
-        <div></div>
+        <div>
+            <ExcercisesList excercises={excercises}/>
+        </div>
     );
 }
